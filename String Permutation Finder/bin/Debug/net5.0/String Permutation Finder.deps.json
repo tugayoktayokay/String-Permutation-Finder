@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "String Permutation Finder/1.0.0": {
+        "runtime": {
+          "String Permutation Finder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "String Permutation Finder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

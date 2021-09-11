@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>String_Permutation_Finder</RootNamespace>
+    <AssemblyName>String Permutation Finder</AssemblyName>
+  </PropertyGroup>
+
+</Project>
