@@ -75,12 +75,12 @@ namespace String_Permutation_Finder
         {
             if (firstText.Length > lastText.Length)
             {
-                generalModels.TempInput = new string(lastText);
+                generalModels.TempInput = lastText;
                 PermutateFind(firstText);
             }
             else
             {
-                generalModels.TempInput = new string(firstText);
+                generalModels.TempInput = firstText;
                 PermutateFind(lastText);
             }
 
