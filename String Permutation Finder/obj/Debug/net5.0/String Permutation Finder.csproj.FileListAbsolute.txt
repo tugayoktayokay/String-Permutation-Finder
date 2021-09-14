@@ -30,3 +30,19 @@ C:\Users\tugayo\source\repos\String Finder\String Permutation Finder\obj\Debug\n
 C:\Users\tugayo\source\repos\String Finder\String Permutation Finder\obj\Debug\net5.0\ref\String Permutation Finder.dll
 C:\Users\tugayo\source\repos\String Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.pdb
 C:\Users\tugayo\source\repos\String Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.genruntimeconfig.cache
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.exe
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.deps.json
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.runtimeconfig.json
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.runtimeconfig.dev.json
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.dll
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\ref\String Permutation Finder.dll
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\bin\Debug\net5.0\String Permutation Finder.pdb
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.csprojAssemblyReference.cache
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.AssemblyInfoInputs.cache
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.AssemblyInfo.cs
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.csproj.CoreCompileInputs.cache
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.dll
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\ref\String Permutation Finder.dll
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.pdb
+C:\Users\tugayo\Documents\GitHub\String-Permutation-Finder\String Permutation Finder\obj\Debug\net5.0\String Permutation Finder.genruntimeconfig.cache

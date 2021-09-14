@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tugayo\\source\\repos\\String Finder\\String Permutation Finder\\String Permutation Finder.csproj": {}
+    "C:\\Users\\tugayo\\Documents\\GitHub\\String-Permutation-Finder\\String Permutation Finder\\String Permutation Finder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tugayo\\source\\repos\\String Finder\\String Permutation Finder\\String Permutation Finder.csproj": {
+    "C:\\Users\\tugayo\\Documents\\GitHub\\String-Permutation-Finder\\String Permutation Finder\\String Permutation Finder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tugayo\\source\\repos\\String Finder\\String Permutation Finder\\String Permutation Finder.csproj",
+        "projectUniqueName": "C:\\Users\\tugayo\\Documents\\GitHub\\String-Permutation-Finder\\String Permutation Finder\\String Permutation Finder.csproj",
         "projectName": "String Permutation Finder",
-        "projectPath": "C:\\Users\\tugayo\\source\\repos\\String Finder\\String Permutation Finder\\String Permutation Finder.csproj",
+        "projectPath": "C:\\Users\\tugayo\\Documents\\GitHub\\String-Permutation-Finder\\String Permutation Finder\\String Permutation Finder.csproj",
         "packagesPath": "C:\\Users\\tugayo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tugayo\\source\\repos\\String Finder\\String Permutation Finder\\obj\\",
+        "outputPath": "C:\\Users\\tugayo\\Documents\\GitHub\\String-Permutation-Finder\\String Permutation Finder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

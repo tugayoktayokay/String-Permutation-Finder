@@ -1,12 +1,13 @@
 ﻿using String_Permutation_Finder.Models;
 using System;
+using System.Collections.Generic;
 using System.Linq;
-
+using System.Text.RegularExpressions;
 
 namespace String_Permutation_Finder
 {
 
-    class Program
+    static class Program
     {
         #region ************ Variables ************
         private static readonly GeneralModels generalModels = new GeneralModels();
@@ -27,14 +28,13 @@ namespace String_Permutation_Finder
         #region ************ Main Process ************
         private static void MainProcess()
         {
-            Console.Write("Lütfen Bir Kelime Giriniz: ");
-            generalModels.InputText = Console.ReadLine().ToLower();
-            char[] text = generalModels.InputText.ToCharArray();
+            Console.Write("Lütfen İlk Kelimeyi Giriniz: ");
             generalModels.FindText.Clear();
-            Permutation(text, 0, text.Length - 1);
-            Console.Write("Lütfen Aramak İstediğiniz Kelimeyi Giriniz: ");
-            string findInputText = Console.ReadLine().ToLower();
-            FindWord(findInputText);
+            generalModels.InputText = Console.ReadLine().ToLower();
+            Console.Write("Lütfen ikinci Kelimeyi Giriniz: ");
+            generalModels.FindInputText = Console.ReadLine().ToLower();
+            CompareStrings(generalModels.InputText, generalModels.FindInputText);
+            Console.WriteLine(FindWord(generalModels.TempInput));
             Console.Write("\n\nÇıkmak istiyormusunuz (E/H)");
             char quit = Convert.ToChar(Console.ReadLine().ToLower());
             if (quit == 'e')
@@ -58,51 +58,51 @@ namespace String_Permutation_Finder
         }
         #endregion
 
-        #region ************ Changed Text ************
-        private static void ChangedText(ref char a, ref char b)
+        #region ************ Permutation ************
+        private static IEnumerable<T[]> Permutate<T>(this IEnumerable<T> source)
         {
-            if (a == b) return;
-            char c = a;
-            a = b;
-            b = c;
+            return permutate(source, Enumerable.Empty<T>());
+            IEnumerable<T[]> permutate(IEnumerable<T> reminder, IEnumerable<T> prefix) =>
+                !reminder.Any() ? new[] { prefix.ToArray() } :
+                reminder.SelectMany((c, i) => permutate(
+                    reminder.Take(i).Concat(reminder.Skip(i + 1)).ToArray(),
+                    prefix.Append(c)));
         }
         #endregion
 
-        #region ************ Permutation ************
-        private static void Permutation(char[] arr, int left, int right)
+        #region ************ Compare Strings ************
+        private static void CompareStrings(string firstText, string lastText)
         {
-            if (left == right)
+            if (firstText.Length > lastText.Length)
             {
-                generalModels.Number++;
-                generalModels.FindText.Add(new string(arr));
+                generalModels.TempInput = new string(lastText);
+                PermutateFind(firstText);
             }
             else
             {
-                for (int i = left; i <= right; i++)
-                {
-                    ChangedText(ref arr[left], ref arr[i]);
-                    Permutation(arr, left + 1, right);
-                    ChangedText(ref arr[left], ref arr[i]);
-                }
+                generalModels.TempInput = new string(firstText);
+                PermutateFind(lastText);
             }
+
         }
         #endregion
 
         #region ************ Find Word ************
-        private static void FindWord(string findTextVal)
+        private static bool FindWord(string findTextVal)
         {
-            bool isFinded = false;
-            if (generalModels.FindText.Where(x => x.Contains(findTextVal)).Any())
-            {
-                isFinded = true;
-            }
-            else
-            {
-                isFinded = false;
-            }
-            Console.Write("İçerik Durumu: " + isFinded);
+            var tempFindModel = generalModels.FindText.Where(x => x.Contains(findTextVal)).Any();
+            return tempFindModel;
         }
         #endregion
 
+        #region ************ Permutation Find ************
+        private static void PermutateFind(string val)
+        {
+            foreach (var k in Permutate(val))
+            {
+                generalModels.FindText.Add(new string(k));
+            }
+        }
+        #endregion
     }
 }
