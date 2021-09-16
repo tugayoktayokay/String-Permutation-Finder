@@ -1,9 +1,7 @@
-# Loodos String Permutation Finder
+# Loodos 2 String içindeki Permütasyonu bulma
 
-This project was generated with Programming Language C# .Net Core 5.0
+Bu proje C# .Net Core 5.0 ile geliştirilmiştir.
 
-## About the project
+## Proje Hakkında
 
-This Project, find out if two string parameters are in the permutation.
-
-Thanks.
+Projedeki temel amaç iki string değerden en büyük uzunluğa sahip olan kelimeyi permütasyonlarına ayırarak tekrardan dizmesi ve ikinici girilen kelimenin permütasyon türevininin içinde olup olmadığının kontrolünü sağlaması.
